@@ -1,0 +1,22 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# AWS credentials
+.aws/
+credentials
+config
+
+# Secrets / environment files
+.env
+.env.*
+
+# Private keys
+*.pem
+*.key
+
+# macOS
+.DS_Store
