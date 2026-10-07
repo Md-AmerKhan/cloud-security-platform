@@ -7,9 +7,9 @@ terraform {
 }
 
 provider "aws" {
-  region = "ap-south-1"
+  region = var.aws_region
 }
 
 resource "aws_s3_bucket" "security_logs" {
-  bucket = "amer-cloud-security-logs-237303364626"
+  bucket = var.security_logs_bucket_name
 }
